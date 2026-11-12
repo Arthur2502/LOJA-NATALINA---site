@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contato — Natal Mágico</title>
+    <meta
+      name="description"
+      content="Fale com a Natal Mágico: endereço, telefone, e-mail e formulário."
+    >
+    <meta name="theme-color" content="#1f3d34">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Public+Sans:wght@400;500;600&display=swap"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="pular" href="#main">Pular para o conteúdo</a>
+
+    <div class="aviso">
+      Frete grátis em compras acima de R$ 200. Pedidos feitos até 15 de dezembro chegam antes do Natal.
+    </div>
+
+    <header>
+      <div class="wrap">
+        <a class="logo" href="index.html">Natal Mágico</a>
+        <nav aria-label="Principal">
+          <a href="index.html">Início</a>
+          <a href="produtos.html">Produtos</a>
+          <a href="historia.html">Nossa história</a>
+          <a href="contato.html">Contato</a>
+          <a href="carrinho.html">
+            Carrinho
+            <span class="badge" id="badge">0</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="topo">
+        <div class="wrap">
+          <h1>Fale com a gente</h1>
+        </div>
+      </div>
+
+      <section>
+        <div class="wrap contato">
+          <div>
+            <h2>Nossos canais</h2>
+            <p><strong>Endereço:</strong> Rua Pastor Hugo Gegembauer, 265, 25 — Centro</p>
+            <p><strong>Telefone:</strong> (11) 97165-5883</p>
+            <p><strong>E-mail:</strong> arthur@natalmagico.com.br</p>
+            <p>
+              <strong>Horário:</strong> segunda a sábado, das 9h às 19h. Em dezembro, também aos domingos.
+            </p>
+          </div>
+
+          <form id="form-contato">
+            <h2>Envie uma mensagem</h2>
+            <label for="nome">Nome</label>
+            <input id="nome" required>
+
+            <label for="email">E-mail</label>
+            <input id="email" type="email" required>
+
+            <label for="msg">Mensagem</label>
+            <textarea id="msg" rows="5" required></textarea>
+
+            <button class="btn red" type="submit">Enviar mensagem</button>
+            <p id="msg-ok" role="status" hidden>
+              Mensagem enviada! Respondemos em até um dia útil.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap rodape">
+        <div>
+          <a class="logo" href="index.html">Natal Mágico</a>
+          <p>Decoração e presentes de Natal, em família desde 1998.</p>
+        </div>
+        <div>
+          <h4>Loja</h4>
+          <a href="produtos.html">Produtos</a>
+          <a href="carrinho.html">Carrinho</a>
+        </div>
+        <div>
+          <h4>A empresa</h4>
+          <a href="historia.html">Nossa história</a>
+          <a href="contato.html">Contato</a>
+        </div>
+      </div>
+      <div class="wrap copy">© Arhur, Davi, Miqueias. Todos os direitos reservados.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
